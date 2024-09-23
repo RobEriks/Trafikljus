@@ -1,7 +1,7 @@
 
 
 .traffic-light {
-    width: 100px;
+    width: 200px;
     background-color: rgb(188, 185, 185);
     padding: 20px;
     margin: 50px;
@@ -12,19 +12,22 @@
 .light {
     width: 100px;
     height: 100px;
-    margin: 10px auto;
+    margin: 10px;
     background-color: gray;
 }
 
 
 .red {
     background-color: red;
+    border: 10px solid darkred
 }
 
 .yellow {
     background-color: yellow;
+    border: 10px solid darkgoldenrod
 }
 
 .green {
     background-color: green;
+    border: 10px solid darkgreen
 }
